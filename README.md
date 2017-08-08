@@ -177,6 +177,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 }
 ```
-欢迎start 红心 点赞
+欢迎start 红心 点赞 (^^)
 
 [作者简书](http://www.jianshu.com/p/dcdafe00076c)
