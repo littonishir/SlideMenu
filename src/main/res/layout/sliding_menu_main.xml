@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+        <ImageView
+            android:id="@+id/iv_head"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:background="@mipmap/a" />
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="littonishir"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_one"
+        style="@style/ll_style">
+
+        <ImageView style="@style/lm_style" />
+
+        <TextView style="@style/tv_style" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_two"
+        style="@style/ll_style">
+
+        <ImageView style="@style/lm_style" />
+
+        <TextView style="@style/tv_style" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_thr"
+        style="@style/ll_style">
+
+        <ImageView style="@style/lm_style" />
+
+        <TextView style="@style/tv_style" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_four"
+        style="@style/ll_style">
+
+        <ImageView style="@style/lm_style" />
+
+        <TextView style="@style/tv_style" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_fi"
+        style="@style/ll_style">
+
+        <ImageView style="@style/lm_style" />
+
+        <TextView style="@style/tv_style" />
+    </LinearLayout>
+
+</LinearLayout>
